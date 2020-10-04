@@ -1,0 +1,36 @@
+// Code with English Explanation
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int co,t;
+    do{
+        cout<<"Insert CO: "; // in this line insert the level of monoxyde in the area
+        cin>>co;
+        cout<<"Insert t: "; // in this line insert the temperature in the area 
+        cin>>t;
+        if(co>50||t>150)
+            cout<<"Fire alert"; // if the one of the values exceeds the values assigned in the 11 line present the message fire alert
+    }while(co>50||t>150);
+return 0;}
+
+..................................................................
+
+//Codigo con explicacion en Español
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int co,t;
+    do{
+        cout<<"Ingrese CO: "; // ingrese el valor del monoxido en el area
+        cin>>co;
+        cout<<"Ingrese t: ";// ingrese el valor de la temperatura en el area
+        cin>>t;
+        if(co>50||t>150)
+            cout<<"ALERTA DE INCENDIO"; // si alguno de los valores dados supera los valores asignados en la linea 11 ,salta alterta de incendio
+    }while(co>50||t>150);
+return 0;}
+
